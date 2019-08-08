@@ -1,4 +1,5 @@
 import React from "react"
+import "../scss/style.scss"
 
 export default () => (
   <>
@@ -15,7 +16,7 @@ export default () => (
                     viewBox="0 0 32 32"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <title>Ava</title>
+                    <title>GraphQL Workshop</title>
                     <defs>
                       <linearGradient
                         x1="100%"
@@ -72,9 +73,7 @@ export default () => (
         <section class="hero text-center">
           <div class="container-sm">
             <div class="hero-inner">
-              <h1 class="hero-title h2-mobile mt-0 is-revealing">
-                You got it!
-              </h1>
+              <h1 class="hero-title h2-mobile mt-0 is-revealing">You got it</h1>
               <p class="hero-paragraph is-revealing">
                 We will let you know as soon a new workshop is announced. We
                 will not spam you with any other content.

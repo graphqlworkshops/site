@@ -68,7 +68,7 @@ class Layout extends React.Component {
                         viewBox="0 0 32 32"
                         xmlns="http://www.w3.org/2000/svg"
                       >
-                        <title>Ava</title>
+                        <title>GraphQL Workshop</title>
                         <defs>
                           <linearGradient
                             x1="100%"
