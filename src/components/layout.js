@@ -136,8 +136,15 @@ class Layout extends React.Component {
                     name="early_access"
                     class="hero-form newsletter-form field field-grouped is-revealing"
                     method="post"
+                    action="/thanks/"
                     netlify
                   >
+                    <input
+                      type="hidden"
+                      name="form-name"
+                      value="early_access"
+                    />
+
                     <div class="control control-expanded">
                       <input
                         class="input"
@@ -333,8 +340,10 @@ class Layout extends React.Component {
                     name="subscribe"
                     class="footer-form newsletter-form field field-grouped is-revealing"
                     method="post"
+                    action="/thanks/"
                     netlify
                   >
+                    <input type="hidden" name="form-name" value="subscribe" />
                     <div class="control control-expanded">
                       <input
                         class="input"
