@@ -3,8 +3,8 @@
  * Library cannot be loaded via NPM because of a window and SSR bug
  */
 
- /* eslint-disable */
- 
+/* eslint-disable */
+
 let SR
 
 if (typeof window !== `undefined`) {

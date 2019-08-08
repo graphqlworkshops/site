@@ -3,12 +3,12 @@ import "../scss/style.scss"
 
 export default () => (
   <>
-    <div class="body-wrap boxed-container">
-      <header class="site-header">
-        <div class="container">
-          <div class="site-header-inner">
-            <div class="brand header-brand">
-              <h1 class="m-0">
+    <div className="body-wrap boxed-container">
+      <header className="site-header">
+        <div className="container">
+          <div className="site-header-inner">
+            <div className="brand header-brand">
+              <h1 className="m-0">
                 <a href="/#">
                   <svg
                     width="32"
@@ -25,9 +25,9 @@ export default () => (
                         y2="100%"
                         id="logo-gradient-b"
                       >
-                        <stop stop-color="#39D8C8" offset="0%" />
-                        <stop stop-color="#BCE4F4" offset="47.211%" />
-                        <stop stop-color="#838DEA" offset="100%" />
+                        <stop stopColor="#39D8C8" offset="0%" />
+                        <stop stopColor="#BCE4F4" offset="47.211%" />
+                        <stop stopColor="#838DEA" offset="100%" />
                       </linearGradient>
                       <path
                         d="M32 16H16v16H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h28a2 2 0 0 1 2 2v14z"
@@ -39,12 +39,8 @@ export default () => (
                         y2="100%"
                         id="logo-gradient-c"
                       >
-                        <stop
-                          stop-color="#1274ED"
-                          stop-opacity="0"
-                          offset="0%"
-                        />
-                        <stop stop-color="#1274ED" offset="100%" />
+                        <stop stopColor="#1274ED" stopOpacity="0" offset="0%" />
+                        <stop stopColor="#1274ED" offset="100%" />
                       </linearGradient>
                     </defs>
                     <g fill="none" fill-rule="evenodd">
@@ -70,11 +66,13 @@ export default () => (
       </header>
 
       <main>
-        <section class="hero text-center">
-          <div class="container-sm">
-            <div class="hero-inner">
-              <h1 class="hero-title h2-mobile mt-0 is-revealing">You got it</h1>
-              <p class="hero-paragraph is-revealing">
+        <section className="hero text-center">
+          <div className="container-sm">
+            <div className="hero-inner">
+              <h1 className="hero-title h2-mobile mt-0 is-revealing">
+                You got it
+              </h1>
+              <p className="hero-paragraph is-revealing">
                 We will let you know as soon a new workshop is announced. We
                 will not spam you with any other content.
               </p>
@@ -83,10 +81,10 @@ export default () => (
         </section>
       </main>
 
-      <footer class="site-footer text-light">
-        <div class="container">
-          <div class="site-footer-inner">
-            <div class="brand footer-brand">
+      <footer className="site-footer text-light">
+        <div className="container">
+          <div className="site-footer-inner">
+            <div className="brand footer-brand">
               <a href="/#">
                 <svg
                   width="32"
@@ -106,8 +104,8 @@ export default () => (
                       y2="100%"
                       id="logo-gradient-footer-b"
                     >
-                      <stop stop-color="#FFF" stop-opacity="0" offset="0%" />
-                      <stop stop-color="#FFF" offset="100%" />
+                      <stop stopColor="#FFF" stopOpacity="0" offset="0%" />
+                      <stop stopColor="#FFF" offset="100%" />
                     </linearGradient>
                   </defs>
                   <g fill="none" fill-rule="evenodd">
@@ -115,7 +113,7 @@ export default () => (
                       <use xlinkHref="#logo-gradient-footer-a" />
                     </mask>
                     <use
-                      fill-opacity=".32"
+                      fillOpacity=".32"
                       fill="#FFF"
                       xlinkHref="#logo-gradient-footer-a"
                     />
@@ -128,15 +126,19 @@ export default () => (
                 </svg>
               </a>
             </div>
-            <ul class="footer-links list-reset">
+            <ul className="footer-links list-reset">
               <li>
                 <a href="mailto:santiagoesteva@gmail.com">Contact</a>
               </li>
             </ul>
-            <ul class="footer-social-links list-reset">
+            <ul className="footer-social-links list-reset">
               <li>
-                <a href="http://twitter.com/sesteva" target="_blank">
-                  <span class="screen-reader-text">Twitter</span>
+                <a
+                  href="http://twitter.com/sesteva"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="screen-reader-text">Twitter</span>
                   <svg
                     width="16"
                     height="16"
@@ -150,7 +152,7 @@ export default () => (
                 </a>
               </li>
             </ul>
-            <div class="footer-copyright">
+            <div className="footer-copyright">
               Web design &copy; 2018 Ava, all rights reserved
             </div>
           </div>

@@ -1,8 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `gatsby-theme-ava`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `GraphQL Workshop`,
+    titleTemplate: "%s · Training",
+    description: `Learn the new standard for app development in this hands-on workshop training.`,
+    author: `@sesteva`,
+    url: "https://www.graphqlfoundations.com",
+    image: "/images/snape.jpg", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@sesteva",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
