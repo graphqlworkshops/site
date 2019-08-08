@@ -8,6 +8,8 @@
 import React from "react"
 import SR from "./ScrollReveal"
 import { SEO } from "./SEO"
+import { OutboundLink } from "gatsby-plugin-amplitude-analytics"
+
 import "../scss/style.scss"
 
 class Layout extends React.Component {
@@ -415,12 +417,14 @@ class Layout extends React.Component {
                 </div>
                 <ul className="footer-links list-reset">
                   <li>
-                    <a href="mailto:santiagoesteva@gmail.com">Contact</a>
+                    <OutboundLink href="mailto:santiagoesteva@gmail.com">
+                      Contact
+                    </OutboundLink>
                   </li>
                 </ul>
                 <ul className="footer-social-links list-reset">
                   <li>
-                    <a
+                    <OutboundLink
                       href="http://twitter.com/sesteva"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -436,7 +440,7 @@ class Layout extends React.Component {
                           fill="#FFFFFF"
                         />
                       </svg>
-                    </a>
+                    </OutboundLink>
                   </li>
                 </ul>
                 <div className="footer-copyright">
