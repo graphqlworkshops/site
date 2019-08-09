@@ -155,6 +155,7 @@ class Layout extends React.Component {
                         type="email"
                         name="email"
                         placeholder="Your best email&hellip;"
+                        required
                       />
                     </div>
                     <div className="control">
@@ -354,6 +355,7 @@ class Layout extends React.Component {
                         type="email"
                         name="email"
                         placeholder="Your best email&hellip;"
+                        required
                       />
                     </div>
                     <div className="control">
