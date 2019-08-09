@@ -4,7 +4,7 @@ module.exports = {
     titleTemplate: "%s · Training",
     description: `Learn the new standard for app development in this hands-on workshop training.`,
     author: `@sesteva`,
-    url: "https://www.graphqlfoundations.com",
+    url: "https://www.graphqlworkshop.io",
     image: "/images/snape.jpg", // Path to your image you placed in the 'static' folder
     twitterUsername: "@sesteva",
   },
