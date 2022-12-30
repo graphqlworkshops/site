@@ -7,7 +7,7 @@
   "main": "gatsby-config.js",
   "license": "GPLv3",
   "dependencies": {
-    "gatsby": "^2.13.28",
+    "gatsby": "^2.32.13",
     "gatsby-image": "^2.2.6",
     "gatsby-plugin-amplitude-analytics": "^1.5.0",
     "gatsby-plugin-manifest": "^2.2.3",
